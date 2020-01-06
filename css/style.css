@@ -1,0 +1,167 @@
+body {
+	margin: 0;
+	padding: 0px 50px 0px 50px;
+	background: rgb(219, 215, 219);
+}
+/*-- Navbar --*/
+.navbar-default {
+	background: rgb(58, 34, 58);
+	margin: 0 auto;
+	border: none;
+	border-radius: 10px;
+	height: 15px;
+}
+
+.navbar-default .navbar-nav li a {
+	color: rgb(255, 254, 254);
+	font-size: 16px;
+}
+
+.navbar-default .navbar-nav li a img {
+	width: 25px;
+}
+
+.navbar-default .navbar-nav li a:hover {
+	color: rgb(219, 213, 213);
+	text-shadow: 1px 1px 1px rgb(7, 8, 7);
+}
+
+/*-- //Navbar --*/
+.body .betting {
+	padding: 15px;
+}
+
+.body .football-title {
+	font-size: 20px;
+}
+
+.body .football-image {
+	width: 30px;
+}
+
+.body p {
+	margin-left: 30px;
+	margin-top: 4px;
+}
+
+.body .form-control {
+	border: 1px solid gray;
+	height: 30px;
+}
+
+.body .table {
+	background: rgb(196, 184, 194);
+}
+
+.body .table .table-header1 {
+	background: rgb(58, 34, 58);
+	color: rgb(255, 255, 255);
+}
+
+.body .table .table-header2 {
+	background: rgb(58, 34, 58);
+	color: rgb(255, 255, 255);
+}
+
+.body .table tr {
+	text-align: center;
+}
+
+.body .table tr th {
+	text-align: center;
+}
+
+.body .table .table-header1 th {
+	font-size: 11px;
+}
+
+.body .table .table-header2 th {
+	font-size: 11px;
+}
+
+.body .table tr td {
+	font-size: 11px;
+	color: rgb(0, 0, 0);
+	background: rgb(230, 224, 229);
+}
+
+.body .table tr .match-name {
+	text-align: left;
+}
+
+.body .table tr .heading-back {
+	background: #4e90c4;
+	font-weight: bold;
+}
+
+.body .table tr .heading-lay {
+	background: #a05a66;
+	font-weight: bold;
+}
+
+.body .table tr td .back, .body .table tr td .lay {
+	font-weight: bold;
+	text-align: center;
+	padding: 10px;
+	height: 30px;
+}
+
+.body .table tr td .back {
+	background: #a6d8ff;
+}
+
+.body .table tr td .lay {
+	background: #fac9d1;
+}
+
+.body .table tr td p {
+	margin-left: -5px;
+	margin-top: -9px;
+	margin-right: -5px;
+}
+
+.table-bordered>tbody>tr>td, .table-bordered>tbody>tr>th,
+	.table-bordered>tfoot>tr>td, .table-bordered>tfoot>tr>th,
+	.table-bordered>thead>tr>td, .table-bordered>thead>tr>th {
+	border: 1px solid rgb(255, 253, 253);
+}
+
+.body #pagination-buttons {
+	text-align: center;
+	padding: 10px 0px 20px 0px;
+}
+
+.body #pagination-buttons input[type="button"] {
+	color: black;
+	padding: 10px 15px 10px 15px;
+	background: rgb(163, 117, 159);
+}
+
+.body #pagination-buttons input[type="button"]:hover {
+	background: rgb(161, 93, 156);
+}
+
+footer {
+	background: black;
+	padding-top: 20px;
+	padding-bottom: 10px;
+}
+
+footer p {
+	padding-top: 20px;
+	text-align: center;
+	color: rgb(255, 251, 251);
+}
+
+footer .text {
+	color: green;
+}
+
+.table-bordered>tbody>tr>.status {
+	border: 2px solid red;
+}
+
+.table-bordered>tbody>tr>td a {
+	color: black;
+	text-decoration: none;
+}
